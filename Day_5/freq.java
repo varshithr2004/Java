@@ -14,7 +14,7 @@ public class freq {
                  freq[ch]++;
          }
          System.out.println();
-        for (int i = 0; i < freq.length; i++) {
+         for (int i = 0; i < freq.length; i++) {
             if (freq[i] > 0)
                 System.out.println((char)i + " : " + freq[i]);
         }
